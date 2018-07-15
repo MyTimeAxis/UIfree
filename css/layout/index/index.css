@@ -1,0 +1,544 @@
+/* S 头部 */
+
+.g-home-hd {
+    height: 60px;
+    line-height: 60px;
+    /* position: fixed; */
+    position: relative;
+    z-index: 102;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.g-home-hd a {
+    color: #ebd368;
+}
+
+.g-home-hd .m-home-nav li {}
+
+.g-home-hd .m-home-nav li a {
+    font-size: 16px;
+    padding: 0px 32px;
+    display: block;
+}
+
+.g-home-hd .m-home-login a {
+    display: block;
+    background: url(../../images/login.png)no-repeat center right 0px;
+    padding: 0px 32px;
+}
+
+
+/* E 头部 */
+
+
+/* S 首页推荐 */
+
+.g-home-recommend .g-home-recommend-box {
+    padding-top: 14px;
+    padding-bottom: 24px;
+    background: #fff;
+}
+
+.g-home-recommend .g-home-recommend-box .m-recommend-imgList .u-recommend-box-img {
+    width: 280px;
+    height: 160px;
+    background: #cdb85c;
+    margin: 0px 10px;
+    border-radius: 6px;
+}
+
+.g-home-recommend .g-home-recommend-box .m-recommend-imgList .u-recommend-box-img img {
+    width: 280px;
+    height: 160px;
+    margin: 0px 10px;
+    border-radius: 6px;
+}
+
+.g-home-recommend .g-home-recommend-box .m-recommend-info {
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.g-home-recommend .g-home-recommend-box .m-recommend-info .u-recommend-info-ad-homeText {
+    font-size: 16px;
+    color: #3e3a39;
+    font-weight: bold
+}
+
+.g-home-recommend .g-home-recommend-box .m-recommend-info .u-recommend-info-ad a {
+    padding-left: 24px;
+    font-size: 14px;
+    color: #595757;
+    background: url(../../images/news.png) no-repeat left;
+    display: inline-block;
+}
+
+.g-home-recommend .g-home-recommend-box .m-recommend-info .u-recommend-info-btn span {
+    font-size: 14px;
+    color: #595757;
+}
+
+.g-home-recommend .g-home-recommend-box .m-recommend-info .u-recommend-info-btn a {
+    padding: 8px 18px;
+    margin-left: 20px;
+    background: #0058ff;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+/* E 首页推荐 */
+
+
+/* S 内容区 */
+
+.g-home-ct .g-home-ct-box {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    background: #f7f8fa;
+}
+
+
+/* =S 索引关键词 */
+
+.g-home-ct .g-home-ct-box .m-keyword {
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.g-home-ct .g-home-ct-box .m-keyword a {
+    font-size: 18px;
+    color: #595757;
+    font-weight: 600;
+    padding: 0px 20px;
+}
+
+.g-home-ct .g-home-ct-box .m-keyword .active {
+    color: #000;
+}
+
+
+/* =E 索引关键词 */
+
+
+/* =S 最新内容 */
+
+.m-newest-list .m-newest-List-item {
+    width: 278px;
+    margin: 0px 10px 20px 10px;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+}
+
+.m-newest-list .m-newest-List-item .newest-img {
+    height: 160px;
+    background: #cdb85c;
+    border-radius: 6px;
+}
+
+.m-newest-list .m-newest-List-item .newest-details {
+    padding-left: 20px;
+    padding-right: 16px;
+}
+
+.m-newest-list .m-newest-List-item .newest-details p {
+    margin: 10px 0px;
+}
+
+.m-newest-list .m-newest-List-item .m-newest-details-stats {
+    margin: 10px 0px;
+}
+
+.browse {
+    background: url(../../images/newest01.png) no-repeat left;
+    padding-left: 20px;
+    padding-right: 12px;
+    color: #9fa0a0;
+}
+
+.fabulous {
+    background: url(../../images/newest02.png) no-repeat left;
+    padding-left: 20px;
+    padding-right: 12px;
+    color: #9fa0a0;
+}
+
+.comment {
+    background: url(../../images/newest03.png) no-repeat left;
+    padding-left: 20px;
+    padding-right: 12px;
+    color: #9fa0a0;
+}
+
+.focus {
+    background: url(../../images/newest04.png) no-repeat left;
+    padding-left: 20px;
+    padding-right: 12px;
+    color: #9fa0a0;
+}
+
+.m-newest-list .m-newest-List-item .m-newest-details-user {
+    margin-left: -20px;
+    margin-right: -16px;
+    padding: 12px 16px 12px 20px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.m-newest-list .m-newest-List-item .m-newest-details-user .user-info img {
+    width: 26px;
+    border-radius: 20px;
+}
+
+.m-newest-list .m-newest-List-item .m-newest-details-user .user-info span {
+    display: block;
+    padding: 6px 0px 6px 8px;
+    color: #9fa0a0;
+    font-size: 14px;
+}
+
+.m-newest-list .m-newest-List-item .m-newest-details-user .user-time {
+    font-size: 12px;
+    color: #9fa0a0;
+    padding: 6px 0px 6px 8px;
+}
+
+.g-home-ct .m-newest .m-newest-Page {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.g-home-ct .m-newest .m-newest-Page ul {
+    display: inline-block;
+}
+
+.g-home-ct .m-newest .m-newest-Page ul li a {
+    padding: 13px 16px;
+    background: #fff;
+    margin: 0px 3px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 12px;
+    color: #9fa0a0;
+    border: 1px solid #dbdbdb;
+}
+
+.g-home-ct .m-newest .m-newest-Page ul li .active {
+    background: #0058ff;
+    color: #fff;
+}
+
+
+/* =E 最新内容 */
+
+
+/* =S 编辑精选 */
+
+.g-home-ct .m-editor {
+    background: #fff;
+}
+
+.g-home-ct-tt {
+    padding: 38px 10px 22px 30px;
+}
+
+.g-home-ct-tt h2 {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+.g-home-ct-tt a {
+    font-size: 14px;
+}
+
+
+/* =E 编辑精选 */
+
+
+/* =S 推荐设计师 */
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item {
+    background: #fff;
+    padding: 18px 7px;
+    margin: 0px 8px 20px 8px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item .item-top .item-img img {
+    width: 62px;
+    border-radius: 42px;
+}
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item .item-top .item-info {
+    padding-left: 12px;
+}
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item .item-top .item-info p {
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-right: 29px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    background: url(../../images/newest05.png) no-repeat right 14px;
+}
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item .item-top .item-follow {
+    margin-right: 10px;
+    margin-left: 62px;
+    margin: 16px 10px 16px 62px;
+    padding: 8px 16px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+}
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item .item-bt {
+    margin-top: 10px;
+}
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item .item-bt .item-list {
+    width: 112px;
+    height: 80px;
+    background: #cdb85c;
+    border-radius: 6px;
+    margin: 0px 5px;
+}
+
+.g-home-ct .m-designer .m-designer-list .m-designer-item .item-bt .item-list img {
+    width: 112px;
+    height: 80px;
+    border-radius: 6px;
+}
+
+
+/* =E 推荐设计师 */
+
+
+/* =S 推荐文章 */
+
+.g-home-ct .m-article {
+    background: #fff;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item {
+    display: inline-block;
+    border: 1px solid #dbdbdb;
+    margin: 0px 10px 20px 10px;
+    border-radius: 6px;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-top {
+    padding: 30px 32px 14px 14px;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-top .item-top-text {
+    width: 326px;
+    padding-top: 24px;
+    font-size: 12px;
+    color: #000;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-top .top .item-text {
+    padding: 14px 0px 14px 22px;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-top .top .item-text p {
+    width: 184px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-top .top .item-img {
+    width: 110px;
+    height: 82px;
+    border-radius: 6px;
+    background: #cdb85c;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-top .top .item-img img {
+    width: 110px;
+    height: 82px;
+    border-radius: 6px;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-bt {
+    padding: 18px 20px 16px 20px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-bt .user-info img {
+    width: 26px;
+    border-radius: 20px;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-bt .user-info span {
+    display: block;
+    padding: 6px 0px 6px 8px;
+    color: #9fa0a0;
+    font-size: 14px;
+}
+
+.g-home-ct .m-article .m-article-list .m-article-item .item-bt .user-time {
+    font-size: 12px;
+    color: #9fa0a0;
+    padding: 6px 0px 6px 8px;
+}
+
+
+/* =E 推荐文章 */
+
+
+/* =S 合作机构 */
+
+.g-home-ct .m-cooperation .m-cooperation-list .m-cooperation-item {
+    width: 180px;
+    height: 110px;
+    background: #fff;
+    border-radius: 6px;
+    margin: 0px 10px 20px 10px;
+}
+
+
+/* =E 合作机构 */
+
+
+/* =S 友情链接 */
+
+.g-home-ct .m-friendship {
+    padding-bottom: 34px;
+}
+
+.g-home-ct .m-friendship .m-friendship-link {
+    margin: 0px 10px;
+    padding: 26px 20px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+
+/* =E 友情链接 */
+
+
+/* E 内容区 */
+
+
+/* S 底部 */
+
+.ft-home {
+    display: block;
+    background: #fff;
+}
+
+.ft-home .ft-home-introduce {
+    padding: 52px 22px 40px 0px;
+    border-right: 1px solid #dbdbdb;
+}
+
+.ft-home .ft-home-nav-box {
+    padding: 32px 0px;
+}
+
+.ft-home .ft-home-UiFree {
+    color: #595757;
+    font-size: 30px;
+    text-align: center;
+    padding: 42px 0px;
+    background: #efefef;
+}
+
+.ft-home .ft-home-ct .ft-home-nav-box .ft-nav {
+    padding: 0px 58px;
+}
+
+.ft-home .ft-home-ct .ft-home-nav-box .ft-nav dt {
+    padding: 12px 0px;
+}
+
+.ft-home .ft-home-ct .ft-home-nav-box .ft-nav dt a {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.ft-home .ft-home-ct .ft-home-nav-box .ft-nav dd {
+    padding: 8px 0px;
+}
+
+.ft-home .ft-home-ct .ft-home-nav-box .ft-nav dd a {
+    font-size: 12px;
+    color: #595757;
+    font-weight: bold;
+}
+
+.ft-home-ct {
+    padding: 14px 0px;
+}
+
+
+/* =S 二维码 */
+
+.ft-home-share-box {
+    padding-top: 34px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.ft-home .ft-home-share-box h3 {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ft-home .ft-home-share-box .ft-share-img {
+    width: 66px;
+    height: 66px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.ft-home .ft-home-share-box img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+/* =E 二维码 */
+
+
+/* =S 版权 */
+
+.ft-home-copyright {
+    padding: 26px 0px;
+}
+
+.ft-home-copyright .ft-home-copyright-text {
+    font-size: 12px;
+    color: #444;
+}
+
+.ft-home-copyright .ft-home-Info span {
+    color: #444;
+    font-size: 12px;
+}
+
+.ft-home-copyright .ft-home-Info span font {
+    color: #7a99f2;
+    font-size: 20px;
+}
+
+
+/* =E 版权 */
+
+
+/* E 底部 */
