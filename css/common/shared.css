@@ -1,4 +1,4 @@
-﻿/*
+/*
     css规范
     全站共用样式包括：网站头部、网站尾部、banner样式、共用样式、选择语言
     插件样式放在：插件共用样式里
@@ -72,5 +72,5 @@ a,a:hover{color:#333;}
 
 /*==S common */
 footer{display: block}
-.cistern { max-width: 1200px; margin :auto;}
+.cistern { max-width: 1000px; margin :auto;}
 /*==E common */
