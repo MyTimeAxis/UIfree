@@ -1,7 +1,7 @@
-body{
+ï»¿body{
     overflow-x: hidden;
 }
-/* S Í·²¿ */
+/* S å¤´éƒ¨ */
 
 .g-home-hd {
     height: 60px;
@@ -33,7 +33,7 @@ body{
 }
 
 
-/* E Í·²¿ */
+/* E å¤´éƒ¨ */
 
 
 .c-mt20{
@@ -52,7 +52,7 @@ body{
     color: #9fa0a0;
 }
 
-/* S ¹Ø×¢Ä£¿éÁĞ */
+/* S å…³æ³¨æ¨¡å—åˆ— */
 .p-attention-list ul{
     background-color: #333;
 }
@@ -67,15 +67,15 @@ body{
     padding: 25px 0;
 }
 
-/* E ¹Ø×¢Ä£¿éÁĞ */
+/* E å…³æ³¨æ¨¡å—åˆ— */
 
 
-/* S ÄÚÈİÇø */
+/* S å†…å®¹åŒº */
 .p-attention-ct{
     margin-top: 30px;
     color: #fff;
 }
-/* S ÄÚÈİÇø×ó²à */
+/* S å†…å®¹åŒºå·¦ä¾§ */
 .p-attention-ct .p-attention-ct-left{
     float: left;
     width: 25%;
@@ -131,9 +131,9 @@ body{
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-/* E ÄÚÈİÇø×ó²à */
+/* E å†…å®¹åŒºå·¦ä¾§ */
 
-/* S ÄÚÈİÇøÓÒ²à */
+/* S å†…å®¹åŒºå³ä¾§ */
 .p-attention-ct .p-attention-ct-right{
     float: left;
     width: 75%;
@@ -287,11 +287,11 @@ body{
 .personal-product-commend-reply p{
     margin-top: 5px;
 }
-/* E ÄÚÈİÇøÓÒ²à */
-/* E ÄÚÈİÇø */
+/* E å†…å®¹åŒºå³ä¾§ */
+/* E å†…å®¹åŒº */
 
 
-/* S µ×²¿ */
+/* S åº•éƒ¨ */
 
 .ft-home {
     display: block;
@@ -344,7 +344,7 @@ body{
 }
 
 
-/* =S ¶şÎ¬Âë */
+/* =S äºŒç»´ç  */
 
 .ft-home-share-box {
     padding-top: 34px;
@@ -373,10 +373,10 @@ body{
 }
 
 
-/* =E ¶şÎ¬Âë */
+/* =E äºŒç»´ç  */
 
 
-/* =S °æÈ¨ */
+/* =S ç‰ˆæƒ */
 
 .ft-home-copyright {
     padding: 26px 0px;
@@ -398,7 +398,7 @@ body{
 }
 
 
-/* =E °æÈ¨ */
+/* =E ç‰ˆæƒ */
 
 
-/* E µ×²¿ */
+/* E åº•éƒ¨ */
