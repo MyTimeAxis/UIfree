@@ -2,6 +2,7 @@
     overflow-x: hidden;
 }
 
+
 .c-mt20{
     margin-top: 20px;
 }
@@ -125,56 +126,111 @@
     padding: 3px 15px;
     display: inline-block;
 }
-.personal-product-list ul li span:hover{
-    background-color: #F7D61C;
-    color: #333;
-    padding: 3px 15px;
-    border-radius: 13px;
-}
 .personal-product-list ul li span:hover,.personal-product-list ul li span.active{
     background-color: #F7D61C;
     color: #333;
     padding: 3px 15px;
     border-radius: 13px;
 }
-.personal-product-content{
-    background-color: #333;
-    padding: 20px;
+/**S 推荐内容**/
+.info-link{
+    text-align: left;
+    margin:20px 0 20px -3%;
 }
-.personal-product-content .p-attention-ct-left-attention{
-    margin-right: 5px;
-}
-.personal-product-content .p-attention-ct-left-attention ,.personal-product-content .p-attention-ct-left-msg{
-    padding: 4px 10px;
-}
-.personal-product-content-portrait{
-    width: 12%;
-    box-sizing: border-box;
+.info-link .info-link-list{
     float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 3%;
+    border-radius: 10px;
+    background: #fff;
 }
-.personal-product-content ul li{
-    margin-bottom: 20px;
+.link-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.personal-product-content ul li:last-of-type{
-    margin-bottom:0;
+.link-img img{
+    width: 100%;
 }
-.personal-product-content ul li div{
-    width: 22%;
-    float: left;
-    box-sizing: border-box;
+.info-link-des{
+    margin: 20px 20px 0 20px;
+    position: relative;
 }
-.personal-product-sight img,.personal-product-sight span{
+
+.info-link-des-top{
+    width: 65%;
+    text-align: left;
+}
+.info-link-des-top .info-link-title,.info-link-des-top .info-link-ftitle{
+    font-weight: normal;
+    color: #595757;
+}
+
+.info-link-des-top .info-link-title{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.info-link-des-top .info-link-ftitle{
+    font-size: 12px;
+}
+.info-link-des-top .info-link-fun{
+    color: #9fa0a0;
+    font-size: 12px;
+    line-height: 13px;
+}
+.info-link-des-top .info-link-fun{
+    margin-right: -13px;
+    padding: 10px 0 20px;
+}
+.info-link-des-top .info-link-fun .info-link-span{
+    margin-right: 13px;
+}
+.info-link-des-top .info-link-fun .info-link-span img,.info-link-des-top .info-link-fun .info-link-span span{
     vertical-align: middle;
 }
-.personal-product-fan-name{
-    font-size: 16px;
+.info-link-des-top .info-link-fun .info-link-span span{
+    padding-left: 5px;
 }
-.personal-product-fan-num{
-    padding: 10px 0;
+.info-link-des-tx{
+    padding: 0 20px;
+    border-top: 1px solid #e6e6e7;
+    line-height: 50px;
 }
-.personal-product-content ul li div img{
-    max-width: 90%;
+.info-link-des-tx .info-link-tx,.info-link-des-tx .info-link-time{
+    display: inline-block;
+    color: #9fa0a0;
 }
+.info-link-des-tx .info-link-tx{
+    float: left;
+}
+.info-link-des-tx .info-link-tx img{
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+.info-link-des-tx .info-link-tx span{
+    display: inline-block;
+    width: 70px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    vertical-align: middle;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.info-link-des-tx .info-link-time{
+    float: right;
+}
+/**E 推荐内容**/
+
+/* S 分页 */
 .personal-product-page .m-newest-Page {
     text-align: center;
     padding-top: 20px;
@@ -199,6 +255,9 @@
     background: #F7D61C;
     color: #fff;
 }
+/* E 分页 */
+
+/* S 评论 */
 .personal-product-commend{
     padding: 20px 0;
     background-color: #333;
@@ -259,6 +318,8 @@
 .personal-product-commend-reply p{
     margin-top: 5px;
 }
+/* E 评论 */
+
 /* E 内容区右侧 */
-/* E 内容区 */
+
 
