@@ -11,7 +11,7 @@
     <!--S 第三方JS -->
 
     <!-- hotcss.js 必须在其他JS加载前加载，万不可异步加载。 -->
-    <script src="lib/hotcss/hotcss.js"></script>
+    <script src="js/hotcss.js"></script>
 
     <!--E 第三方JS -->
 
@@ -36,7 +36,7 @@
 
             <!-- Menu菜单 -->
             <div class="m-home-menu f-fl">
-                <img src="images/menu.png" alt="">
+                <a href="javascript:void(0);"><img src="images/menu.png" alt=""></a>
             </div>
             <!-- /Menu菜单 -->
             <!-- 导航 -->
@@ -107,11 +107,12 @@
     <!-- /头部 -->
 
     <!-- banner -->
-    <!-- <div class="g-home-banner">
+    <div class="g-banner" style="background-image: url(images/home-banner.png);">
         <div class="cistern">
-            <img src="images/banner.png" alt="">
+            <!-- <h3></h3> -->
+            <!-- <p></p> -->
         </div>
-    </div> -->
+    </div>
     <!-- /banner -->
 
     <!-- 首页推荐 -->
@@ -119,21 +120,29 @@
         <div class="cistern">
             <div class="g-home-recommend-box">
                 <div class="m-recommend-imgList f-cb">
-                    <div class="u-recommend-box-img f-fl">
-                        <img src="" alt="">
+                    <div class="row">
+                        <div class="col">
+                            <div class="item-box">
+                                <img src="images/home03.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-box">
+                                <img src="images/home03.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-box">
+                                <img src="images/home07.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-box">
+                                <img src="images/home09.png" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="u-recommend-box-img f-fl">
-                        <img src="" alt="">
 
-                    </div>
-                    <div class="u-recommend-box-img f-fl">
-                        <img src="" alt="">
-
-                    </div>
-                    <div class="u-recommend-box-img f-fl">
-                        <img src="" alt="">
-
-                    </div>
                 </div>
                 <div class="m-recommend-info f-cb">
                     <div class="u-recommend-info-ad f-fl">
@@ -141,7 +150,7 @@
                         <a>WEIRENDO设计 上传《一波练习作品》被 请叫我转载哥喜欢 4小时前</a>
                     </div>
                     <div class="u-recommend-info-btn f-fr">
-                        <span>立即上传原创作品，开始你的大师之路!</span>
+                        <!-- <span>立即上传原创作品，开始你的大师之路!</span> -->
                         <a>上传作品</a>
                     </div>
                 </div>
@@ -164,180 +173,197 @@
 
                 <!-- 最新内容 -->
                 <div class="m-newest">
-                    <div class="m-newest-list f-cb">
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
+                    <div class="row f-cb">
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
                                 </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
                                 </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
                                 </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
                                 </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
                                 </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
+                                </div>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
+                                </div>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item-box">
+                                <div class="newest-img">
+                                    <img src="images/home19.png">
+                                </div>
+                                <div class="newest-details">
+                                    <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                    <p class="newest-details-info">原创: 详情页</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                    <div class="m-newest-details-user f-cb">
+                                        <a class="user-info f-fl f-cb">
+                                            <img src="images/qq.png" class="f-fl">
+                                            <span class="f-fl">Xiaowu</span>
+                                        </a>
+                                        <span class="user-time f-fr">20分钟</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <nav class="m-newest-Page">
                         <ul class="f-cb">
                             <li class="f-fl">
-                                <a aria-label="Previous">
+                                <a class="Previous">
                                     <span aria-hidden="true">&laquo;</span>
                                 </a>
                             </li>
@@ -346,8 +372,13 @@
                             <li class="f-fl"><a>3</a></li>
                             <li class="f-fl"><a>4</a></li>
                             <li class="f-fl"><a>5</a></li>
+                            <li class="f-fl"><a>7</a></li>
+                            <li class="f-fl"><a>8</a></li>
+                            <li class="f-fl"><a>....</a></li>
+                            <li class="f-fl"><a>25</a></li>
+                            <li class="f-fl"><a>26</a></li>
                             <li class="f-fl">
-                                <a aria-label="Next">
+                                <a class="Next">
                                     <span aria-hidden="true">&raquo;</span>
                                 </a>
                             </li>
@@ -362,173 +393,191 @@
                         <h2 class="f-fl">编辑精选</h2>
                         <a class="f-fr">更多编辑精选</a>
                     </div>
-                    <div class="m-newest-list f-cb">
 
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                    <div class="m-newest">
+                        <div class="row f-cb">
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
-                                </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                            </div>
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="m-newest-List-item f-fl">
-                            <div class="newest-img">
-                                <img src="" alt="">
-                            </div>
-                            <div class="newest-details">
-                                <p class="newest-details-tt">Magic-详情页集合（带…</p>
-                                <p class="newest-details-info">原创: 详情页</p>
-                                <div class="m-newest-details-stats">
-                                    <a class="browse">59</a>
-                                    <a class="fabulous">3</a>
-                                    <a class="comment">0</a>
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="m-newest-details-user f-cb">
-                                    <a class="user-info f-fl f-cb">
-                                        <img src="images/qq.png" class="f-fl">
-                                        <span class="f-fl">Xiaowu</span>
-                                    </a>
-                                    <span class="user-time f-fr">20分钟</span>
+                            </div>
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item-box">
+                                    <div class="newest-img">
+                                        <img src="images/home19.png">
+                                    </div>
+                                    <div class="newest-details">
+                                        <p class="newest-details-tt">Magic-详情页集合（带…</p>
+                                        <p class="newest-details-info">原创: 详情页</p>
+                                        <div class="m-newest-details-stats">
+                                            <a class="browse_h">59</a>
+                                            <a class="fabulous">3</a>
+                                            <a class="comment">0</a>
+                                        </div>
+                                        <div class="m-newest-details-user f-cb">
+                                            <a class="user-info f-fl f-cb">
+                                                <img src="images/qq.png" class="f-fl">
+                                                <span class="f-fl">Xiaowu</span>
+                                            </a>
+                                            <span class="user-time f-fr">20分钟</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -543,159 +592,115 @@
                         <a class="f-fr">更多推荐设计师</a>
                     </div>
                     <div class="m-designer-list">
-                        <div class="m-designer-item">
-                            <div class="item-top f-cb">
-                                <div class="item-img f-fl">
-                                    <img src="images/qq.png" class="f-fl">
-                                </div>
-                                <div class="item-info f-fl">
-                                    <p>WEIRENDO设计</p>
-                                    <div class="item-info-stats">
-                                        <a class="focus">59</a>
-                                        <a class="browse">59</a>
+                        <div class="row f-cb">
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home39.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="item-follow f-fr">加关注</a>
                             </div>
-                            <div class="item-bt f-cb">
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-designer-item">
-                            <div class="item-top f-cb">
-                                <div class="item-img f-fl">
-                                    <img src="images/qq.png" class="f-fl">
-                                </div>
-                                <div class="item-info f-fl">
-                                    <p>WEIRENDO设计</p>
-                                    <div class="item-info-stats">
-                                        <a class="focus">59</a>
-                                        <a class="browse">59</a>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home40.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="item-follow f-fr">加关注</a>
                             </div>
-                            <div class="item-bt f-cb">
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-designer-item">
-                            <div class="item-top f-cb">
-                                <div class="item-img f-fl">
-                                    <img src="images/qq.png" class="f-fl">
-                                </div>
-                                <div class="item-info f-fl">
-                                    <p>WEIRENDO设计</p>
-                                    <div class="item-info-stats">
-                                        <a class="focus">59</a>
-                                        <a class="browse">59</a>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home41.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="item-follow f-fr">加关注</a>
                             </div>
-                            <div class="item-bt f-cb">
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-designer-item">
-                            <div class="item-top f-cb">
-                                <div class="item-img f-fl">
-                                    <img src="images/qq.png" class="f-fl">
-                                </div>
-                                <div class="item-info f-fl">
-                                    <p>WEIRENDO设计</p>
-                                    <div class="item-info-stats">
-                                        <a class="focus">59</a>
-                                        <a class="browse">59</a>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home42.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="item-follow f-fr">加关注</a>
                             </div>
-                            <div class="item-bt f-cb">
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-designer-item">
-                            <div class="item-top f-cb">
-                                <div class="item-img f-fl">
-                                    <img src="images/qq.png" class="f-fl">
-                                </div>
-                                <div class="item-info f-fl">
-                                    <p>WEIRENDO设计</p>
-                                    <div class="item-info-stats">
-                                        <a class="focus">59</a>
-                                        <a class="browse">59</a>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home43.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="item-follow f-fr">加关注</a>
                             </div>
-                            <div class="item-bt f-cb">
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="m-designer-item">
-                            <div class="item-top f-cb">
-                                <div class="item-img f-fl">
-                                    <img src="images/qq.png" class="f-fl">
-                                </div>
-                                <div class="item-info f-fl">
-                                    <p>WEIRENDO设计</p>
-                                    <div class="item-info-stats">
-                                        <a class="focus">59</a>
-                                        <a class="browse">59</a>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home39.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
                                     </div>
                                 </div>
-                                <a class="item-follow f-fr">加关注</a>
                             </div>
-                            <div class="item-bt f-cb">
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home39.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
+                            </div>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home39.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="item-list f-fl">
-                                    <img src="" alt="">
+                            </div>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home39.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="designer-bg" style="background-image: url(images/home39.png);">
+                                    <div class="designer-info">
+                                        <p>WEIRENDD设计</p>
+                                        <div class="designer-info-stats">
+                                            <a class="focus">59</a>
+                                            <a class="browse">1.25万</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -709,157 +714,163 @@
                         <h2 class="f-fl">推荐文章</h2>
                         <a class="f-fr">更多文章</a>
                     </div>
-                    <div class="m-article-list">
-                        <div class="m-article-item">
-                            <div class="item-top">
-                                <div class="top f-cb">
-                                    <div class="item-img f-fl">
-                                        <!-- <img src=""> -->
-                                    </div>
-                                    <div class="item-text f-fl">
-                                        <p>汉字之美（下）—书法字体推 荐</p>
-                                        <div class="item-text-stats">
-                                            <a class="browse">59</a>
-                                            <a class="fabulous">3</a>
-                                            <a class="comment">0</a>
-                                        </div>
+                    <div class="article-ct f-cb">
+                        <div class="article-first f-fl">
+                            <div class="article-box" style="background-image: url(images/home50.png);">
+                                <div class="article-first-rankings ab-tr">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
                                     </div>
                                 </div>
-                                <p class="item-top-text">本期推荐一些视觉效果较好的书法字体和在线书法字体生成网 站。</p>
-                            </div>
-                            <div class="item-bt f-cb">
-                                <a class="user-info f-fl ">
-                                    <img src="images/qq.png" class="f-fl">
-                                    <span class="f-fl">Xiaowu</span>
-                                </a>
-                                <span class="user-time f-fr">20分钟</span>
+                                <div class="article-modal ab-tr op-04">
+
+                                </div>
+                                <div class="article-first-text">
+                                    <h1>今日首推</h1>
+                                </div>
                             </div>
                         </div>
-                        <div class="m-article-item">
-                            <div class="item-top">
-                                <div class="top f-cb">
-                                    <div class="item-img f-fl">
-                                        <!-- <img src=""> -->
-                                    </div>
-                                    <div class="item-text f-fl">
-                                        <p>汉字之美（下）—书法字体推 荐</p>
-                                        <div class="item-text-stats">
-                                            <a class="browse">59</a>
-                                            <a class="fabulous">3</a>
-                                            <a class="comment">0</a>
-                                        </div>
+                        <div class="article-sm f-fl">
+                            <div class="article-box">
+                                <div class="article-sm-ng ab-tr" style="background-image: url(images/home51.png)">
+                                    <!-- <h3>标题需要可取消注释</h3> -->
+                                </div>
+                                <div class="article-first-rankings ab-bootom">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
                                     </div>
                                 </div>
-                                <p class="item-top-text">本期推荐一些视觉效果较好的书法字体和在线书法字体生成网 站。</p>
-                            </div>
-                            <div class="item-bt f-cb">
-                                <a class="user-info f-fl ">
-                                    <img src="images/qq.png" class="f-fl">
-                                    <span class="f-fl">Xiaowu</span>
-                                </a>
-                                <span class="user-time f-fr">20分钟</span>
+                                <div class="article-modal ab-bootom op-1">
+
+                                </div>
                             </div>
                         </div>
-                        <div class="m-article-item">
-                            <div class="item-top">
-                                <div class="top f-cb">
-                                    <div class="item-img f-fl">
-                                        <!-- <img src=""> -->
-                                    </div>
-                                    <div class="item-text f-fl">
-                                        <p>汉字之美（下）—书法字体推 荐</p>
-                                        <div class="item-text-stats">
-                                            <a class="browse">59</a>
-                                            <a class="fabulous">3</a>
-                                            <a class="comment">0</a>
-                                        </div>
+                        <div class="article-sm f-fl">
+                            <div class="article-box">
+                                <div class="article-sm-ng ab-bootom" style="background-image: url(images/home51.png)">
+                                    <!-- <h3>标题需要可取消注释</h3> -->
+                                </div>
+                                <div class="article-first-rankings ab-tr">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
                                     </div>
                                 </div>
-                                <p class="item-top-text">本期推荐一些视觉效果较好的书法字体和在线书法字体生成网 站。</p>
-                            </div>
-                            <div class="item-bt f-cb">
-                                <a class="user-info f-fl ">
-                                    <img src="images/qq.png" class="f-fl">
-                                    <span class="f-fl">Xiaowu</span>
-                                </a>
-                                <span class="user-time f-fr">20分钟</span>
+                                <div class="article-modal ab-tr op-1">
+
+                                </div>
                             </div>
                         </div>
-                        <div class="m-article-item">
-                            <div class="item-top">
-                                <div class="top f-cb">
-                                    <div class="item-img f-fl">
-                                        <!-- <img src=""> -->
-                                    </div>
-                                    <div class="item-text f-fl">
-                                        <p>汉字之美（下）—书法字体推 荐</p>
-                                        <div class="item-text-stats">
-                                            <a class="browse">59</a>
-                                            <a class="fabulous">3</a>
-                                            <a class="comment">0</a>
-                                        </div>
+                        <div class="article-sm f-fl">
+                            <div class="article-box">
+                                <div class="article-sm-ng ab-tr" style="background-image: url(images/home51.png)">
+                                    <!-- <h3>标题需要可取消注释</h3> -->
+                                </div>
+                                <div class="article-first-rankings ab-bootom">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
                                     </div>
                                 </div>
-                                <p class="item-top-text">本期推荐一些视觉效果较好的书法字体和在线书法字体生成网 站。</p>
-                            </div>
-                            <div class="item-bt f-cb">
-                                <a class="user-info f-fl ">
-                                    <img src="images/qq.png" class="f-fl">
-                                    <span class="f-fl">Xiaowu</span>
-                                </a>
-                                <span class="user-time f-fr">20分钟</span>
+                                <div class="article-modal ab-bootom op-1">
+
+                                </div>
                             </div>
                         </div>
-                        <div class="m-article-item">
-                            <div class="item-top">
-                                <div class="top f-cb">
-                                    <div class="item-img f-fl">
-                                        <!-- <img src=""> -->
-                                    </div>
-                                    <div class="item-text f-fl">
-                                        <p>汉字之美（下）—书法字体推 荐</p>
-                                        <div class="item-text-stats">
-                                            <a class="browse">59</a>
-                                            <a class="fabulous">3</a>
-                                            <a class="comment">0</a>
-                                        </div>
+
+                        <div class="article-sm f-fl">
+                            <div class="article-box">
+                                <div class="article-sm-ng ab-bootom" style="background-image: url(images/home51.png)">
+                                    <!-- <h3>标题需要可取消注释</h3> -->
+                                </div>
+                                <div class="article-first-rankings ab-tr">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
                                     </div>
                                 </div>
-                                <p class="item-top-text">本期推荐一些视觉效果较好的书法字体和在线书法字体生成网 站。</p>
-                            </div>
-                            <div class="item-bt f-cb">
-                                <a class="user-info f-fl ">
-                                    <img src="images/qq.png" class="f-fl">
-                                    <span class="f-fl">Xiaowu</span>
-                                </a>
-                                <span class="user-time f-fr">20分钟</span>
+                                <div class="article-modal ab-tr op-1">
+
+                                </div>
                             </div>
                         </div>
-                        <div class="m-article-item">
-                            <div class="item-top">
-                                <div class="top f-cb">
-                                    <div class="item-img f-fl">
-                                        <!-- <img src=""> -->
-                                    </div>
-                                    <div class="item-text f-fl">
-                                        <p>汉字之美（下）—书法字体推 荐</p>
-                                        <div class="item-text-stats">
-                                            <a class="browse">59</a>
-                                            <a class="fabulous">3</a>
-                                            <a class="comment">0</a>
-                                        </div>
+                        <div class="article-sm f-fl">
+                            <div class="article-box">
+                                <div class="article-sm-ng ab-tr" style="background-image: url(images/home51.png)">
+                                    <!-- <h3>标题需要可取消注释</h3> -->
+                                </div>
+                                <div class="article-first-rankings ab-bootom">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
                                     </div>
                                 </div>
-                                <p class="item-top-text">本期推荐一些视觉效果较好的书法字体和在线书法字体生成网 站。</p>
-                            </div>
-                            <div class="item-bt f-cb">
-                                <a class="user-info f-fl ">
-                                    <img src="images/qq.png" class="f-fl">
-                                    <span class="f-fl">Xiaowu</span>
-                                </a>
-                                <span class="user-time f-fr">20分钟</span>
+                                <div class="article-modal ab-bootom op-1">
+
+                                </div>
                             </div>
                         </div>
+
+                        <div class="article-sm f-fl">
+                            <div class="article-box">
+                                <div class="article-sm-ng ab-bootom" style="background-image: url(images/home51.png)">
+                                    <!-- <h3>标题需要可取消注释</h3> -->
+                                </div>
+                                <div class="article-first-rankings ab-tr">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                </div>
+                                <div class="article-modal ab-tr op-1">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="article-first f-fl">
+                            <div class="article-box" style="background-image: url(images/home50.png);">
+                                <div class="article-first-rankings ab-tr">
+                                    <span>01.</span>
+                                    <p>汉字之美（下）—书法 字体推荐</p>
+                                    <div class="m-newest-details-stats">
+                                        <a class="browse_h">59</a>
+                                        <a class="fabulous">3</a>
+                                        <a class="comment">0</a>
+                                    </div>
+                                </div>
+                                <div class="article-modal ab-tr op-04">
+
+                                </div>
+                                <div class="article-first-text">
+                                    <h1>今日首推</h1>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <!-- /推荐文章 -->
@@ -870,36 +881,61 @@
                         <h2 class="f-fl">合作机构</h2>
                     </div>
                     <div class="m-cooperation-list f-cb">
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
-                        </div>
-                        <div class="m-cooperation-item f-fl">
+                        <div class="row">
+                            <div class="col">
+                                <div class="m-cooperation-item">
+                                    <img src="images/home99.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="m-cooperation-item">
+                                    <img src="images/home99.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="m-cooperation-item">
+                                    <img src="images/home99.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="m-cooperation-item">
+                                    <img src="images/home99.png" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- <div class="m-cooperation-list f-cb">
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                        <div class="m-cooperation-item f-fl">
+                        </div>
+                    </div> -->
                 </div>
                 <!-- /合作机构 -->
 
                 <!-- 友情链接 -->
-                <div class="m-friendship">
+                <!-- <div class="m-friendship">
                     <div class="g-home-ct-tt f-cb">
                         <h2 class="f-fl">友情链接</h2>
                     </div>
@@ -911,7 +947,7 @@
                         <a href="">www.baidu.com</a>
                         <a href="">www.baidu.com</a>
                     </div>
-                </div>
+                </div> -->
                 <!-- /友情链接 -->
             </div>
         </div>
