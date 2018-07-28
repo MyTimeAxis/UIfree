@@ -382,6 +382,7 @@ footer {
 
 .g-banner {
     min-height: 387px;
+    margin: 20px 0px;
     background-repeat: no-repeat;
     background-position: center;
 }
